@@ -1,0 +1,5 @@
+correct it as below,will convert it to right date format.
+
+===================
+HoverTool(tooltips=[('date', '@DateTime{%F}')],
+          formatters={'DateTime': 'datetime'})
