@@ -1,0 +1,11 @@
+# tools="crosshair"
+# shuxin.jin@hotmail.com
+from bokeh.io import show
+
+from bokeh.plotting import figure
+
+p = figure(plot_width=300, plot_height=300,tools="crosshair")
+p.patches(xs=[[1,2,3],[4,5,6,5]], ys=[[1,2,1],[4,5,5,4]],
+          color=["#43a2ca", "#a8ddb5"])
+
+show(p)
