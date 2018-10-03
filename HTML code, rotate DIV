@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<style>
+
+div
+
+{
+
+width:100px;
+
+height:100px;
+
+background:yellow;
+
+transition:18s ease-out;
+
+-moz-transition:18s ease-out; /* Firefox 4 */
+
+-webkit-transition:18s ease-out; /* Safari and Chrome */
+
+-o-transition:18s ease-out; /* Opera */
+
+}
+
+div:hover
+
+{
+
+width:200px;
+
+height:200px;
+
+transform:rotate(1440deg);
+
+-moz-transform:rotate(1440deg); /* Firefox 4 */
+
+-webkit-transform:rotate(1440deg); /* Safari and Chrome */
+
+-o-transform:rotate(1440deg); /* Opera */
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div>rotate rotate</div>
+
+
+
+</body>
+
+</html>
